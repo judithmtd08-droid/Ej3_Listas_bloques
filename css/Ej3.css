@@ -1,0 +1,50 @@
+
+body {
+    margin: 20px;
+    font-family: "Times New Roman", serif;
+    background-color: white;
+    background-image:
+        radial-gradient(circle at 20% 30%, #e7e1b4 0 8%, transparent 9%),
+        radial-gradient(circle at 80% 60%, #d7d0b1 0 10%, transparent 11%);
+}
+
+.contenedor {
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    padding: 10px 18px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.bloque {
+    background-color: rgba(105, 125, 145, 0.88);
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.bloque h3 {
+    font-size: 18px;
+}
+
+.bloque p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.texto {
+    background-color: rgba(226, 222, 170, 0.8);
+    color: black;
+    padding: 8px;
+}
+
+.texto p {
+    font-size: 12px;
+    text-align: justify;
+    margin: 0;
+}
+
+.destacado {
+    background-color: #b5c9a0;
+    font-weight: bold;
+}
